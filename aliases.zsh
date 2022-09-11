@@ -7,12 +7,10 @@ alias c="clear"
 # git
 alias gs="git status"
 alias ga!="git add --all && gs"
+alias gc="git commit -m"
 
 function ga(){
 	git add $* && git status
-}
-function gc(){
-	git commit -m "$1"
 }
 
 #42
